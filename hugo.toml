@@ -108,4 +108,4 @@ googleAnalytics = "" # DEPRECATED! Use .Services.googleAnalytics.ID
   url = "https://google.com/search"
   [Params.widgets.search.input]
     name = "sitesearch"
-    pre = ""
+    pre = "7n8"
