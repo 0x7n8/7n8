@@ -1,6 +1,6 @@
 ---
 title: Arch Linux Installation
-date: 2023-04-13
+date: 2022-04-13
 thumbnail:
   src: "https://raw.githubusercontent.com/0x7n8/0x7n8.github.io/main/uploads/arch-ext.jpg"
 
