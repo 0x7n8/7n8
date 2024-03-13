@@ -1,7 +1,6 @@
 ---
 title: Arch Linux Installation
-description: Arch Linux First Installation Minimal tty.
-date: 2024-13-04
+date: 2024-04-13
 thumbnail:
   src: "https://raw.githubusercontent.com/0x7n8/0x7n8.github.io/main/uploads/arch-ext.jpg"
 
