@@ -15,16 +15,16 @@ categories:
 ---
 
 
-💡 0x Note**: It’s based on experience and device environment, in another case maybe you deal with some issues or problems. you can visit the arch forum [here](https://bbs.archlinux.org/), or [here](https://www.linuxquestions.org/questions/arch-29/).**
+💡 0x Note: It’s based on experience and device environment, in another case maybe you deal with some issues or problems. you can visit the arch forum [here](https://bbs.archlinux.org/), or [here](https://www.linuxquestions.org/questions/arch-29/).
 
 
 <!--more-->
 
 
-<aside>
-💡 0x Tip: Important to know your own Laptop, what kind of boot (efi or uefi) ssd or hdd, vm, single boot, or dual boot, etc.
 
-</aside>
+💡 0x Tip: Important to know your own Laptop, what kind of boot (efi or uefi) ssd or hdd, vm, single boot, or dual boot, etc. Most Important RTFM [READ THE F*cking MANUALS].
+
+
 
 ## [Pre-install steps](https://gist.github.com/miliarch/dd19af34679417b18f1bcdb680728a45#pre-install-steps)
 
@@ -32,7 +32,7 @@ categories:
 
 Download the current version of Arch Linux to a location on your filesystem. See the [Acquire an installation image](https://wiki.archlinux.org/index.php/Installation_guide#Acquire_an_installation_image) and [Verify Signature](https://wiki.archlinux.org/index.php/Installation_guide#Verify_signature) sections of the Arch Linux installation guide for instructions on how to retrieve and verify the current version of Arch Linux.s
 
-I used [archlinux-2020.08.01-x86_64.iso](http://mirror.arizona.edu/archlinux/iso/2020.08.01/) with kernel `5.7.12-arch1-1` for this gist.
+I used [archlinux-2020.08.01-x86_64.iso](http://mirror.arizona.edu/archlinux/iso/2020.08.01/) with kernel `5.7.12-arch1-1`.
 
 ### [Create Virtual Machine](https://gist.github.com/miliarch/dd19af34679417b18f1bcdb680728a45#create-virtual-machine)
 
