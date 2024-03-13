@@ -1,6 +1,6 @@
 ---
 title: Arch Linux Installation
-date: 2024-04-13
+date: 2023-04-13
 thumbnail:
   src: "https://raw.githubusercontent.com/0x7n8/0x7n8.github.io/main/uploads/arch-ext.jpg"
 
@@ -14,10 +14,10 @@ categories:
   
 ---
 
-<aside>
+
 💡 0x Note**: It’s based on experience and device environment, in another case maybe you deal with some issues or problems. you can visit the arch forum [here](https://bbs.archlinux.org/), or [here](https://www.linuxquestions.org/questions/arch-29/).**
 
-</aside>
+
 <!--more-->
 
 
