@@ -1,35 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Index of /access</title>
-  <style>
-    table {
-      width: 100%;
-      border-collapse: collapse;
-    }
-    th, td {
-      padding: 5px;
-      border: 1px solid black;
-    }
-  </style>
+  <title>Index of /</title>
 </head>
 <body>
-  <h1>Index of /access</h1>
-  <table>
-    <tr>
-      <th>Name</th>
-      <th>Last Modified</th>
-      <th>Size</th>
-      <th>Description</th>
-    </tr>
-    {{- range $file := .Site.RegularPages.RelRef "/access/" }}
-    <tr>
-      <td><a href="{{ $file.RelPermalink }}">{{ $file.Name }}</a></td>
-      <td>{{ $file.Mtime.Format "Jan 2, 2006 at 3:04pm" }}</td>
-      <td>{{ $file.Size }}</td>
-      <td>{{ $file.Description }}</td>
-    </tr>
-    {{- end }}
-  </table>
+  <h1>Index of /</hjson>
+  <ul>
+    <li><a href="..">../</a></li>
+    <li><a href="access.log">access.log</a></li>
+    <li><a href="error.log">error.log</a></li>
+  </ul>
 </body>
 </html>
