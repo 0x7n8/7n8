@@ -2,7 +2,7 @@
 title: Dir
 ---
 
-{{< directory dir="/static/files/" >}}
+{{< directory dir="static/files/" >}}
 
 
 
