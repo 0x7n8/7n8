@@ -1,5 +1,5 @@
-#baseurl = "/"
-baseurl = "https://0x7n8.github.io"
+baseurl = "/"
+#baseurl = "https://0x7n8.github.io"
 title = "7n8"
 languageCode = "en-us"
 paginate = "10" # Number of posts per page
