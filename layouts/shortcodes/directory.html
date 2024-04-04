@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Index of {{ .Dir }}</title>
+  </head>
+  <body>
+    <h1>Index of {{ .Dir }}</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Last Modified</th>
+          <th>Size</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{ range $file := .Files }}
+        <tr>
+          <td>
+            {{ if $file.IsDir }}
+            <i>{{ $file.Name }}</i>
+            {{ else }}
+            <a href="{{ $file.RelPermalink }}">{{ $file.Name }}</a>
+            {{ end }}
+          </td>
+          <td>{{ $file.Mtime.Format "Mon Jan 2 15:04:05 2006" }}</td>
+          <td>{{ $file.Size }}</td>
+          <td>{{ $file.Description }}</td>
+        </tr>
+        {{ end }}
+      </tbody>
+    </table>
+  </body>
+</html>
