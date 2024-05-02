@@ -2,7 +2,7 @@
 title: Arch Linux Installation
 date: 2022-04-13
 thumbnail:
-  src: "https://raw.githubusercontent.com/0x7n8/0x7n8.github.io/main/uploads/arch-ext.jpg"
+  src: "https://raw.githubusercontent.com/0xZipp0/images-bank/main/uploads/arch.png"
 
 tags:
   - "Linux"
