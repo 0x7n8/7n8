@@ -120,6 +120,8 @@ To make sure you have an internet connection, you have to ask Mr. Google:
 
 To install arch you have to download packages. It's a good idea to download them from the best connection mirror.
 
+"Optional"
+
 ```
    # pacman -Sy
    # pacman -S reflector
@@ -159,8 +161,15 @@ This guide will use a 250GB hard disk and will have only Arch Linux installed. Y
 You're going to start by removing all the previous partitions and creating the new ones.
 
 ```
-   # gdisk /dev/sda
+   # gdisk /dev/sda 
 ```
+
+U can use cfdisk for more user-friendly interface, but gdisk is more powerful and flexible.
+
+```
+   # cfdiks /dev/sda 
+```
+
 
 This interactive CLI program allows you to enter commands for managing your HD. I'm going to show you only the commands you need to enter.
 
@@ -211,7 +220,7 @@ This interactive CLI program allows you to enter commands for managing your HD. 
    8302
 ```
 
-### [Data partition](https://gist.github.com/fjpalacios/441f2f6d27f25ee238b9bfcb068865db#data-partition)
+### [Data partition (Optional)](https://gist.github.com/fjpalacios/441f2f6d27f25ee238b9bfcb068865db#data-partition)
 
 ```
    Command: N
@@ -235,7 +244,7 @@ This interactive CLI program allows you to enter commands for managing your HD. 
    # mkswap /dev/sda2
    # mkfs.ext4 /dev/sda3
    # mkfs.ext4 /dev/sda4
-   # mkfs.ext4 /dev/sda5
+   # mkfs.ext4 /dev/sda5 (Optional)
 ```
 
 ### [Mount partitions](https://gist.github.com/fjpalacios/441f2f6d27f25ee238b9bfcb068865db#mount-partitions)
@@ -257,7 +266,7 @@ If you run the `lsblk` command you should see something like this:
    ├─sda2   8:2    0     4G  0 part [SWAP]
    ├─sda3   8:3    0    50G  0 part /mnt
    ├─sda4   8:4    0   100G  0 part /mnt/home
-   └─sda5   8:5    0  77.9G  0 part
+   └─sda5   8:5    0  77.9G  0 part  (Optional)
 ```
 
 ### [Install packages and chroot into system](https://gist.github.com/miliarch/dd19af34679417b18f1bcdb680728a45#install-packages-and-chroot-into-system)
